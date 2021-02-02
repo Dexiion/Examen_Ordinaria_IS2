@@ -23,7 +23,7 @@ public class Catalogue {
         });
     }
 
-    public void genreNovelties() {
+    public void noveltiesOrder() {  
         Collections.sort(films, new Comparator<Film>() {
             @Override
             public int compare(Film f1, Film f2) {

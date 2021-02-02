@@ -15,7 +15,7 @@ public class NoveltiesOrderCommand implements Command{
     
     @Override
     public void execute() {
-        catalogue.genreNovelties();
+        catalogue.noveltiesOrder();
         catalogueDisplay.display(catalogue);
     }
     
